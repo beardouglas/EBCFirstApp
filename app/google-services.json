@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "239783818307",
+    "firebase_url": "https://early-bird-camp.firebaseio.com",
+    "project_id": "early-bird-camp",
+    "storage_bucket": "early-bird-camp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239783818307:android:4c0bc4d833610e0c",
+        "android_client_info": {
+          "package_name": "samples.fabric.io.ebcfirstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239783818307-cla30pt9possh95dngo8t7s7kivkdbsc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxaI1UhB1pef5cga3-ImObZSQbNGz7nBU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
