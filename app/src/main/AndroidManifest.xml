@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="samples.fabric.io.ebcfirstapp">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
-
     <application
+        android:name=".EBCApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:name=".EBCApplication">
+        android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".ClickedActivity" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="732f60fac10f0695725fdcfaa33e5661e7d01313" />
+
+        <activity android:name=".TwitterTimelineActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ClickedActivity"></activity>
     </application>
-
 
 </manifest>
