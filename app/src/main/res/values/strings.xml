@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EBC First App</string>
+    <string name="menu_item_plus">Navigate to other activity</string>
+</resources>
